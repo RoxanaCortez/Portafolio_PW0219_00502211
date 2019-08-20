@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index3.html" method="GET">
+        <hr>
+        <h1>
+            Fake E-mail sign up
+        </h1>
+        <fieldset>
+            <legend>
+                Personal information
+            </legend>
+            <label for="name">Names: </label>
+            <input type="text" name="name" placeholder="Roxana">
+            <input type="text" name="name" placeholder="Carolina">
+            <br>
+            <br>
+            <label for="lastname">Last Names: </label>
+            <input type="text" name="lastname" placeholder="Cortéz">
+            <input type="text" name="lastname" placeholder="Díaz">
+            <br>
+            <br>
+            <label for="birthday">Birthday: </label>
+            <input type="date" name="date" placeholder="dd/mm/aaaa">
+            <br>
+            <br>
+            <label for="genere">Genere: </label>
+            <input type="radio" name="radio2" value="Female"> F
+            <input type="radio" name="radio2" value="Male"> M
+            <input type="radio" name="radio2" value="others"> Other:
+            <input type="text" name="radio2">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                Sign Up Information
+            </legend>
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" placeholder="00502211@uca.edu.sv">
+            <br>
+            <br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title = "Must contain at least 
+            one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+            <br>
+            <br>
+            <label for="verify">Verify Password: </label>
+            <input type="password" name="verify" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title = "Must contain 
+            at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
+            required>
+        </fieldset>
+        <br>
+        <input type="submit" name="submitButton" value="Submit">
+        <input type="reset" name="resetButton" value="Reset Fields">
+    </form>
+</body>
+</html>
