@@ -83,7 +83,7 @@
     */
     .btn.border{
         background-color: transparent;
-        border-bottom-color: #1A237E;
+        border-color: #1A237E;
         color: #1A237E;
     }
     .btn.border.green{

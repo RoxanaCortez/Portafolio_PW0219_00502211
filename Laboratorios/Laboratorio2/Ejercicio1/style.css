@@ -71,7 +71,7 @@
             -padding de 1px en todas direcciones
         */
         hr{
-            border: 5px dotted #EEEEEE;
+            border: 5px dotted gray;
             padding: 1px;
         }
             
