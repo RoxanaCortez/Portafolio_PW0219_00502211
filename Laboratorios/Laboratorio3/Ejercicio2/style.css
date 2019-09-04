@@ -12,6 +12,7 @@ body{
     padding: 1em;
     opacity: 0.8;
     text-transform: uppercase;
+    margin: 0.5em 1em;
 }
 .btn:hover{
     opacity: 1.0;
@@ -34,6 +35,62 @@ body{
     color: white;
 }
 .btn.cinco{
-    background-color: aquamarine;
+    background-color: #EE5233;
     color:white;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+main{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    flex-flow: wrap;
+    align-items: center; 
+}
+
+main>h1{
+    width: 50%;
+    height: 50%;
+    margin: 1em;
+    text-align: center;
+    color: #ffffff
+}
+
+main hr{
+    background: white;
+    width: 75%;
+    height: 5px;
+    border-radius: 5px; 
+    border: none;
+}
+
+main .logos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.logos>img{
+    object-fit: cover; 
+    width: 5em;
+    height: 5em;
+    margin: 0.5em;
+    opacity: 0.8;
+}
+
+.logos>img:hover{
+    opacity: 1.0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
 }
