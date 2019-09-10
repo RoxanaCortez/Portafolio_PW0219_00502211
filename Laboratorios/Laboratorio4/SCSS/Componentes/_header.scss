@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+    height: $altura-min;
+}
+.btn.uno{
+    @include color-btn($color-uno,$color-blanco);
+}
+.btn.dos{
+    @include color-btn($color-dos,$color-blanco);
+}
+.btn.tres{
+    @include color-btn($color-tres,$color-blanco);
+}

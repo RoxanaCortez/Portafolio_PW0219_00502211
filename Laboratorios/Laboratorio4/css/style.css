@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url(./../../iconos/fondo1.png);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.btn {
+  border: transparent 1px solid;
+  border-radius: 0.3em;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 1em;
+  opacity: 0.8;
+  text-transform: uppercase;
+  margin: 0.5em 1em;
+}
+
+.btn:hover {
+  opacity: 1.0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 10%;
+}
+
+.btn.uno {
+  background-color: #1A237E;
+}
+
+.btn.dos {
+  background-color: #4CAF50;
+}
+
+.btn.tres {
+  background-color: #00BCD4;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 80%;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main > h1 {
+  width: 50%;
+  height: 1%;
+  margin: 1em;
+  text-align: center;
+  color: #ffffff;
+}
+
+main hr {
+  background: white;
+  width: 75%;
+  height: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+main .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+main .logos > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 5em;
+  height: 5em;
+  margin: 0.5em;
+  opacity: 0.8;
+}
+
+main .logos > img:hover {
+  opacity: 1.0;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 10%;
+}
+
+.btn.cuatro {
+  background-color: #673AB7;
+}
+
+.btn.cinco {
+  background-color: #EE5233;
+}
+/*# sourceMappingURL=style.css.map */

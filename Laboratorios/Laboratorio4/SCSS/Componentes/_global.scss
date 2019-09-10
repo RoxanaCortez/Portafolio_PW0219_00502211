@@ -1,0 +1,41 @@
+$color-uno:#1A237E;
+$color-dos:#4CAF50;
+$color-tres:#00BCD4;
+$color-cuatro:#673AB7;
+$color-cinco:#EE5233;
+$color-blanco: #ffffff;
+$tamaño-fuente: 1.1em;
+$altura-min: 10%;
+$opacity:0.8;
+$borde: transparent 1px solid;
+
+@mixin  dimensiones($width,$height){
+    width: $width;
+    height: $height;
+}
+@mixin color-btn($backgroung,$color) {
+    background-color: $backgroung;
+    $color: color;
+}
+html{
+    @include dimensiones(100%, 100%);
+}
+
+body{
+    background-image: url(./../../iconos/fondo1.png);
+    @include dimensiones(100%, 100%);
+    margin: 0;
+}
+
+.btn{
+    border: $borde;
+    border-radius: 0.3em;
+    box-shadow: none;
+    padding: 1em;
+    opacity: $opacity;
+    text-transform: uppercase;
+    margin: 0.5em 1em;
+    &:hover{
+    opacity: 1.0;
+    }
+}

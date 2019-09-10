@@ -1,0 +1,11 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: $altura-min;
+}
+.btn.cuatro{
+    @include color-btn($color-cuatro,$color-blanco);
+}
+.btn.cinco{
+    @include color-btn($color-cinco,$color-blanco);
+}
