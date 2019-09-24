@@ -5,5 +5,5 @@ function ocurrenciasNumero(arreg,n){
             cont=cont+1;
         }
     }
-    console.log(cont);
+    return console.log(cont);
 }

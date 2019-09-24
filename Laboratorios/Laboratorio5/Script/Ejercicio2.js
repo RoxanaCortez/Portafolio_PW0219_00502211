@@ -4,5 +4,5 @@ function sumaPromedio(arreg){
         suma+=element;
     });
     prom=suma/(arreg.length);
-    console.log("La suma es ",suma +" y el promedio es ",prom);
+    return console.log("La suma es ",suma +" y el promedio es ",prom);
 }
